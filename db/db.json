@@ -1,6 +1,18 @@
-[
+{
+  "notes": [
     {
-        "title":"Test Title",
-        "text":"Test text"
+      "title": "Test Title",
+      "text": "Test text"
+    },
+    {
+      "title": "Finish Challenge Assignment",
+      "text": "Module 11 - Express.js Note Taker",
+      "id": "1"
+    },
+    {
+      "title": "Meeting",
+      "text": "Slack at 10pm, Wednesday, September 1st",
+      "id": "2"
     }
-]
+  ]
+}
