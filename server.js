@@ -80,7 +80,7 @@ app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, './public/notes.html'));
 });
   
-// wildcard route
+// wildcard route`
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, './public/index.html'));
 });  
