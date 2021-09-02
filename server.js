@@ -7,6 +7,9 @@ const PORT = process.env.PORT || 3001;
 // to instantiate the server
 const app = express();
 
+// to make certain files readily available - all assets
+app.use(express.static('public'));
+
 // parse incoming string or array data
 app.use(express.urlencoded({ extended: true }));
 // parse incoming JSON data
@@ -65,8 +68,23 @@ app.post('/api/notes', (req, res) => {
         const note = createNewNote(req.body, notes );
         res.json(note);
     }
+});  
+
+// GET route to serve index.html
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, './public/index.html'));
 });
   
+// GET route to serve notes.html
+app.get('/notes', (req, res) => {
+    res.sendFile(path.join(__dirname, './public/notes.html'));
+});
+  
+// wildcard route
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, './public/index.html'));
+});  
+
 app.listen(PORT, () => {
     console.log(`API server now on port ${PORT}!`);
 });
