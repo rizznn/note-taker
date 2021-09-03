@@ -29,6 +29,21 @@
       "title": "Set an alarm",
       "text": "8:00am in the morning to exercise for an hour",
       "id": "6"
+    },
+    {
+      "title": "Finish Challenge Assignment",
+      "text": "Express.js - Note Taker\n",
+      "id": "6"
+    },
+    {
+      "title": "Finish Challenge Assignment",
+      "text": "Express.js - Note Taker\n",
+      "id": "7"
+    },
+    {
+      "title": "Call the office",
+      "text": "Set Up the meeting",
+      "id": "8"
     }
   ]
 }
