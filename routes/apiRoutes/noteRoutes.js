@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { findById, createNewNote, validateNote } = require('../../lib/notes');
+const { findById, createNewNote, validateNote, deleteNote } = require('../../lib/notes');
 const { notes } = require('../../db/db');
 
 // To add route
@@ -31,5 +31,11 @@ router.post('/notes', (req, res) => {
         res.json(note);
     }
 });  
+
+// to delete
+router.delete('/notes/:id', (req, res) => {
+    const result = deleteNote(req.params.id, { notes });
+    result = result.filter(({ id }) => id !== req.params.id);
+});
 
 module.exports  = router;

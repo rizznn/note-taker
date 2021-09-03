@@ -1,10 +1,6 @@
 {
   "notes": [
     {
-      "title": "Test Title",
-      "text": "Test text"
-    },
-    {
       "title": "Finish Challenge Assignment",
       "text": "Module 11 - Express.js Note Taker",
       "id": "1"
@@ -28,6 +24,11 @@
       "title": "Call the dental clinic",
       "text": "Call the dental clinic to book a cleaning appointment on Monday 10am",
       "id": "5"
+    },
+    {
+      "title": "Set an alarm",
+      "text": "8:00am in the morning to exercise for an hour",
+      "id": "6"
     }
   ]
 }
