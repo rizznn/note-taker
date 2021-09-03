@@ -44,6 +44,7 @@ const saveNote = (note) =>
   });
 
 const deleteNote = (id) =>
+  console.log("deleting the note with id: " + id);  
   fetch(`/api/notes/${id}`, {
     method: 'DELETE',
     headers: {
