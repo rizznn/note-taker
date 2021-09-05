@@ -33,4 +33,4 @@ Contact me or create an issue or pull request
   Email me at [rizzel_nolasco17@yahoo.com](mailto:rizzel_nolasco17@yahoo.com)
 
 ## Link to application repo
-https://github.com/rizznn/readme-builder
+https://github.com/rizznn/note-taker
