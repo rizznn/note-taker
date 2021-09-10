@@ -38,28 +38,9 @@ router.post('/notes', (req, res) => {
 router.delete('/notes/:id', (req, res) => {
     let result = deleteNote(req.params.id, notes );
     result = result.filter(({ id }) => id !== req.params.id);
-    
+    // fs.writeFileSync(path.join(__dirname, '../db/db.json'), JSON.stringify(result));
     res.json(result);
+
 });
-
-// fs.writeFile(path.join(__dirname, '../db/db'), JSON.stringify(result));
-
-// router.delete('/notes/:id', (req, res) => {
-//     let result = deleteNote(req.params.id, { notes });
-//     result = notes.filter(({ id }) => id !== req.params.id);
-//     fs.writeFileSync(path.join(__dirname, '../db/db'), JSON.stringify(result));
-  
-//     res.json(true);
-
-// });
-
-// router.delete('/notes/:id', (req, res) => {
-//     let results = notes;
-//     if (!req.query) {
-//       results = deleteNote(req.params.id, results);
-//     }
-//     res.json(results);
-//   });
-  
 
 module.exports  = router;

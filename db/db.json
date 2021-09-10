@@ -1,49 +1,14 @@
 {
   "notes": [
     {
-      "title": "Finish Challenge Assignment",
-      "text": "Module 11 - Express.js Note Taker",
-      "id": "1"
-    },
-    {
-      "title": "Meeting",
-      "text": "Slack at 10pm, Wednesday, September 1st",
-      "id": "2"
-    },
-    {
-      "title": "Long Weekend Getaway",
-      "text": "Pack some clothes\n",
-      "id": "3"
-    },
-    {
-      "title": "to delete",
-      "text": "delete this note",
-      "id": "4"
-    },
-    {
-      "title": "Call the dental clinic",
-      "text": "Call the dental clinic to book a cleaning appointment on Monday 10am",
-      "id": "5"
-    },
-    {
-      "title": "Set an alarm",
-      "text": "8:00am in the morning to exercise for an hour",
-      "id": "6"
-    },
-    {
-      "title": "Finish Challenge Assignment",
-      "text": "Express.js - Note Taker\n",
-      "id": "6"
-    },
-    {
-      "title": "Finish Challenge Assignment",
-      "text": "Express.js - Note Taker\n",
-      "id": "7"
-    },
-    {
       "title": "Call the office",
       "text": "Set Up the meeting",
-      "id": "8"
+      "id": "0"
+    },
+    {
+      "title": "Call the office again",
+      "text": "Set Up another meeting",
+      "id": "1"
     }
   ]
 }
