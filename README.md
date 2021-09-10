@@ -7,7 +7,7 @@ This app is for business owners who wants to write and save notes to organize an
 This website is created with Visual Studio Code using node.js, Express.js, uuid, JavaScript. Project repo created here in Github. Deployed application to Heroku.
 
 ## Installation
-*Run the app using the Heroku link or by cloning the repo
+*Run the app using the [Heroku link](https://note-taker-expressjs-spp.herokuapp.com/) or by cloning the repo
 
 1. Make sure you have node.js installed on your system (if you have node.js, you have npm as well)
 2. Navigate to the directory where you want the repository to be cloned in your terminal.
